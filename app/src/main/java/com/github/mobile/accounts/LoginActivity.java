@@ -153,6 +153,7 @@ public class LoginActivity extends RoboActionBarAccountAuthenticatorActivity {
         loginText = finder.find(R.id.et_login);
         passwordText = finder.find(R.id.et_password);
 
+
         final Intent intent = getIntent();
         username = intent.getStringExtra(PARAM_USERNAME);
         authTokenType = intent.getStringExtra(PARAM_AUTHTOKEN_TYPE);

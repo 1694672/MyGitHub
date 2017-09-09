@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItem"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="4dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/ListTitleText" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        style="@style/ListSubtitleText" />
+
+</LinearLayout>

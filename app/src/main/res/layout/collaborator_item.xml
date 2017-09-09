@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItem"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/rb_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        style="@style/AvatarLarge"
+        android:contentDescription="@string/avatar" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        style="@style/ListTitleText"
+        android:layout_width="match_parent"
+        android:includeFontPadding="true"
+        android:paddingBottom="0dp"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textStyle="normal" />
+
+</LinearLayout>
